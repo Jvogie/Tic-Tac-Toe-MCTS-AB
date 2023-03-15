@@ -1,0 +1,21 @@
+m: 5
+n: 5
+k: 5
+rollouts: 500
+mcts_alpha: 1
+
+num_games: 1
+x_strat: 2    # 0: RANDOM, 1: Alpha Beta Search, 2: MCTS
+y_strat: 2    # 0: RANDOM, 1: Alpha Beta Search, 2: MCTS
+
+verbose: True
+
+# IGNORE / DO NOT MODIFY
+hydra/hydra_logging: none
+hydra/job_logging: none
+
+#cd "Users\jack\Desktop\COMS 4701 AI\sp23-hw2-main"
+
+#.venv\scripts\activate
+
+#python main.py
